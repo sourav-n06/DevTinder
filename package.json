@@ -1,0 +1,20 @@
+{
+  "name": "devfunder",
+  "version": "1.0.0",
+  "description": "Dating app for India",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/app.js"
+  },
+  "keywords": [
+    "Node",
+    "js",
+    "JavaScript"
+  ],
+  "author": "Sourav Hazra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
