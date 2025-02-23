@@ -2,7 +2,7 @@
 
  const app = express();
 
- app.use((req, res) => {
+ app.use("/", (req, res) => {
     res.send("Hello from Server Side first time...");
  })
 
